@@ -1,0 +1,10 @@
+.gradle
+.git
+.gitignore
+build/reports
+build/test-results
+build/tmp
+bin
+.metals
+Dockerfile
+README.md
