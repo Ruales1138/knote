@@ -531,3 +531,89 @@ WARNING: Unmatched cancel notification for request id 25
 2026.10.05 15:41:41 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java. Using fallback presentation compiler.
 2026.10.05 15:41:44 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java. Using fallback presentation compiler.
 2026.10.05 15:41:52 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java. Using fallback presentation compiler.
+oct 05, 2026 3:42:36 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "workspace/didChangeWatchedFiles",
+  "params": {
+    "changes": [
+      {
+        "uri": "file:///c%3A/Users/LENOVO/Downloads/knote/knote/build",
+        "type": 2
+      },
+      {
+        "uri": "file:///c%3A/Users/LENOVO/Downloads/knote/knote/build",
+        "type": 3
+      },
+      {
+        "uri": "file:///c%3A/Users/LENOVO/Downloads/knote/knote/build",
+        "type": 3
+      }
+    ]
+  }
+}
+java.lang.IllegalStateException: An unexpected exception occurred while executing jsonrpc method public abstract java.util.concurrent.CompletableFuture scala.meta.metals.lsp.WorkspaceService.didChangeWatchedFiles(org.eclipse.lsp4j.DidChangeWatchedFilesParams)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:73)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:225)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:192)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:189)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:97)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+Caused by: java.nio.file.AccessDeniedException: C:\Users\LENOVO\Downloads\knote\knote\build
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:231)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:357)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:399)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:2973)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:38)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:18)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$onChange$1(MetalsLspService.scala:945)
+	at scala.collection.immutable.List.map(List.scala:236)
+	at scala.collection.immutable.List.map(List.scala:79)
+	at scala.meta.internal.metals.MetalsLspService.onChange(MetalsLspService.scala:944)
+	at scala.meta.internal.metals.ProjectMetalsLspService.onChange(ProjectMetalsLspService.scala:368)
+	at scala.meta.internal.metals.MetalsLspService.didChangeWatchedFiles(MetalsLspService.scala:930)
+	at scala.meta.internal.metals.WorkspaceLspService.$anonfun$didChangeWatchedFiles$3(WorkspaceLspService.scala:707)
+	at scala.collection.StrictOptimizedIterableOps.map(StrictOptimizedIterableOps.scala:100)
+	at scala.collection.StrictOptimizedIterableOps.map$(StrictOptimizedIterableOps.scala:87)
+	at scala.collection.immutable.HashMap.map(HashMap.scala:39)
+	at scala.meta.internal.metals.WorkspaceLspService.didChangeWatchedFiles(WorkspaceLspService.scala:706)
+	at scala.meta.metals.lsp.DelegatingScalaService.didChangeWatchedFiles(DelegatingScalaService.scala:61)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	... 11 more
+
+2026.10.05 15:42:36 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java. Using fallback presentation compiler.
+2026.10.05 15:42:39 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java. Using fallback presentation compiler.
+2026.10.05 15:42:40 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java. Using fallback presentation compiler.
+2026.10.05 15:42:42 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java. Using fallback presentation compiler.
+2026.10.05 15:42:43 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java. Using fallback presentation compiler.
+oct 05, 2026 3:42:44 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17
+2026.10.05 15:42:43 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java. Using fallback presentation compiler.
+2026.10.05 15:42:48 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java. Using fallback presentation compiler.
+2026.10.05 15:43:13 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java. Using fallback presentation compiler.
+2026.10.05 15:43:45 WARN  no build target for: C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java
+2026.10.05 15:43:45 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java. Using fallback presentation compiler.
+2026.10.05 15:43:52 INFO  time: code lens generation in 8.1s
+2026.10.05 15:43:52 INFO  time: code lens generation in 8.09s
+2026.10.05 15:46:45 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java. Using fallback presentation compiler.
+oct 05, 2026 3:46:45 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 29
+2026.10.05 15:46:46 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java. Using fallback presentation compiler.
+2026.10.05 15:47:31 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java. Using fallback presentation compiler.
+2026.10.05 15:47:32 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java. Using fallback presentation compiler.
+2026.10.05 15:47:36 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java. Using fallback presentation compiler.
+2026.10.05 15:47:36 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java. Using fallback presentation compiler.
+2026.10.05 15:47:36 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java. Using fallback presentation compiler.
+2026.10.05 15:47:39 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java. Using fallback presentation compiler.
+2026.10.05 15:47:50 INFO  time: code lens generation in 3.27s
