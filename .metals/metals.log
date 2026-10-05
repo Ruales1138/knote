@@ -1,0 +1,285 @@
+2026.10.05 10:44:16 INFO  Started: Metals version 1.6.9 in folders 'C:\Users\LENOVO\Downloads\knote\knote' for client Visual Studio Code 1.140.0.
+2026.10.05 10:44:16 INFO  Memory monitor started
+2026.10.05 10:44:19 WARN  Using H2 2.5.250 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.10.05 10:44:19 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteApplication.java. Using fallback presentation compiler.
+oct 05, 2026 10:44:20 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+oct 05, 2026 10:44:20 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4
+oct 05, 2026 10:44:20 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+2026.10.05 10:44:20 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteApplication.java. Using fallback presentation compiler.
+2026.10.05 10:45:11 WARN  no build target for: C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteApplication.java
+2026.10.05 10:45:29 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteApplication.java. Using fallback presentation compiler.
+2026.10.05 10:45:29 WARN  no build target for: C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteApplication.java
+2026.10.05 10:45:29 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteApplication.java. Using fallback presentation compiler.
+oct 05, 2026 10:45:30 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9
+2026.10.05 10:45:29 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteApplication.java. Using fallback presentation compiler.
+2026.10.05 10:45:29 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteApplication.java. Using fallback presentation compiler.
+2026.10.05 10:45:30 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteApplication.java. Using fallback presentation compiler.
+2026.10.05 10:45:35 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteApplication.java. Using fallback presentation compiler.
+2026.10.05 10:45:37 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteApplication.java. Using fallback presentation compiler.
+2026.10.05 10:45:43 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteApplication.java. Using fallback presentation compiler.
+2026.10.05 10:47:01 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteApplication.java. Using fallback presentation compiler.
+2026.10.05 10:47:05 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteApplication.java. Using fallback presentation compiler.
+2026.10.05 10:47:11 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteApplication.java. Using fallback presentation compiler.
+2026.10.05 10:48:31 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteApplication.java. Using fallback presentation compiler.
+2026.10.05 10:53:05 WARN  no build target for: C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteApplication.java
+2026.10.05 10:53:05 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteApplication.java. Using fallback presentation compiler.
+2026.10.05 10:53:05 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteApplication.java. Using fallback presentation compiler.
+2026.10.05 10:53:05 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteApplication.java. Using fallback presentation compiler.
+2026.10.05 10:53:05 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteApplication.java. Using fallback presentation compiler.
+2026.10.05 10:56:45 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteApplication.java. Using fallback presentation compiler.
+2026.10.05 10:56:45 WARN  no build target for: C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteApplication.java
+2026.10.05 10:56:45 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteApplication.java. Using fallback presentation compiler.
+2026.10.05 10:56:45 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteApplication.java. Using fallback presentation compiler.
+2026.10.05 10:57:43 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteApplication.java. Using fallback presentation compiler.
+2026.10.05 10:57:43 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteApplication.java. Using fallback presentation compiler.
+2026.10.05 10:57:43 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteApplication.java. Using fallback presentation compiler.
+2026.10.05 10:57:43 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteApplication.java. Using fallback presentation compiler.
+2026.10.05 10:57:44 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteApplication.java. Using fallback presentation compiler.
+2026.10.05 10:57:44 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteApplication.java. Using fallback presentation compiler.
+2026.10.05 10:57:45 WARN  no build target for: C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteApplication.java
+2026.10.05 10:57:45 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteApplication.java. Using fallback presentation compiler.
+2026.10.05 10:57:45 INFO  no build target found for c:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteApplication.java. Using fallback presentation compiler.
+2026.10.05 10:57:45 WARN  no build target for: C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java
+2026.10.05 10:57:45 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java. Using fallback presentation compiler.
+2026.10.05 10:57:45 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java. Using fallback presentation compiler.
+2026.10.05 10:57:45 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java. Using fallback presentation compiler.
+2026.10.05 10:57:45 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java. Using fallback presentation compiler.
+2026.10.05 10:57:45 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java. Using fallback presentation compiler.
+2026.10.05 10:58:41 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java. Using fallback presentation compiler.
+2026.10.05 10:58:41 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java. Using fallback presentation compiler.
+2026.10.05 10:58:42 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java. Using fallback presentation compiler.
+2026.10.05 10:58:42 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java. Using fallback presentation compiler.
+2026.10.05 10:58:42 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java. Using fallback presentation compiler.
+2026.10.05 10:58:42 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java. Using fallback presentation compiler.
+2026.10.05 10:58:42 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java. Using fallback presentation compiler.
+2026.10.05 10:58:43 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java. Using fallback presentation compiler.
+2026.10.05 10:58:43 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java. Using fallback presentation compiler.
+2026.10.05 10:58:43 WARN  no build target for: C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java
+2026.10.05 10:58:43 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java. Using fallback presentation compiler.
+2026.10.05 10:58:44 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java. Using fallback presentation compiler.
+2026.10.05 10:58:44 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java. Using fallback presentation compiler.
+2026.10.05 10:58:47 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java. Using fallback presentation compiler.
+2026.10.05 10:58:47 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java. Using fallback presentation compiler.
+2026.10.05 10:58:47 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java. Using fallback presentation compiler.
+2026.10.05 10:58:47 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java. Using fallback presentation compiler.
+2026.10.05 10:58:47 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java. Using fallback presentation compiler.
+2026.10.05 10:58:47 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java. Using fallback presentation compiler.
+2026.10.05 10:58:47 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java. Using fallback presentation compiler.
+2026.10.05 10:58:47 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java. Using fallback presentation compiler.
+2026.10.05 10:58:48 WARN  no build target for: C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java
+2026.10.05 10:58:48 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java. Using fallback presentation compiler.
+2026.10.05 10:58:48 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java. Using fallback presentation compiler.
+2026.10.05 10:58:52 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java. Using fallback presentation compiler.
+2026.10.05 10:59:38 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java. Using fallback presentation compiler.
+2026.10.05 10:59:43 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java. Using fallback presentation compiler.
+2026.10.05 11:00:31 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java. Using fallback presentation compiler.
+2026.10.05 11:00:35 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java. Using fallback presentation compiler.
+2026.10.05 11:00:36 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java. Using fallback presentation compiler.
+2026.10.05 11:00:38 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java. Using fallback presentation compiler.
+2026.10.05 11:00:38 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java. Using fallback presentation compiler.
+2026.10.05 11:00:38 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java. Using fallback presentation compiler.
+2026.10.05 11:00:38 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java. Using fallback presentation compiler.
+2026.10.05 11:00:38 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java. Using fallback presentation compiler.
+2026.10.05 11:00:39 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java. Using fallback presentation compiler.
+2026.10.05 11:00:39 WARN  no build target for: C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java
+2026.10.05 11:00:39 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java. Using fallback presentation compiler.
+2026.10.05 11:01:53 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java. Using fallback presentation compiler.
+2026.10.05 11:01:53 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java. Using fallback presentation compiler.
+2026.10.05 11:01:53 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java. Using fallback presentation compiler.
+2026.10.05 11:01:53 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java. Using fallback presentation compiler.
+2026.10.05 11:01:53 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java. Using fallback presentation compiler.
+2026.10.05 11:01:54 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java. Using fallback presentation compiler.
+2026.10.05 11:01:54 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java. Using fallback presentation compiler.
+2026.10.05 11:01:55 WARN  no build target for: C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java
+2026.10.05 11:01:55 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java. Using fallback presentation compiler.
+2026.10.05 11:01:56 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java. Using fallback presentation compiler.
+2026.10.05 11:01:59 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java. Using fallback presentation compiler.
+2026.10.05 11:01:59 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java. Using fallback presentation compiler.
+2026.10.05 11:01:59 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java. Using fallback presentation compiler.
+2026.10.05 11:01:59 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java. Using fallback presentation compiler.
+2026.10.05 11:03:01 WARN  no build target for: C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java
+2026.10.05 11:03:01 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java. Using fallback presentation compiler.
+2026.10.05 11:03:01 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java. Using fallback presentation compiler.
+2026.10.05 11:03:01 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java. Using fallback presentation compiler.
+2026.10.05 11:03:01 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java. Using fallback presentation compiler.
+2026.10.05 11:03:01 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java. Using fallback presentation compiler.
+2026.10.05 11:03:01 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java. Using fallback presentation compiler.
+2026.10.05 11:03:01 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java. Using fallback presentation compiler.
+2026.10.05 11:03:02 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java. Using fallback presentation compiler.
+2026.10.05 11:03:03 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java. Using fallback presentation compiler.
+2026.10.05 11:03:03 WARN  no build target for: C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java
+2026.10.05 11:03:03 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java. Using fallback presentation compiler.
+2026.10.05 11:06:58 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java. Using fallback presentation compiler.
+2026.10.05 11:06:58 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java. Using fallback presentation compiler.
+2026.10.05 11:06:58 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java. Using fallback presentation compiler.
+2026.10.05 11:06:58 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java. Using fallback presentation compiler.
+2026.10.05 11:06:58 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java. Using fallback presentation compiler.
+2026.10.05 11:06:59 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java. Using fallback presentation compiler.
+2026.10.05 11:06:59 WARN  no build target for: C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java
+2026.10.05 11:07:00 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java. Using fallback presentation compiler.
+2026.10.05 11:08:11 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java. Using fallback presentation compiler.
+2026.10.05 11:08:11 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java. Using fallback presentation compiler.
+2026.10.05 11:08:12 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java. Using fallback presentation compiler.
+2026.10.05 11:08:12 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java. Using fallback presentation compiler.
+2026.10.05 11:08:12 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java. Using fallback presentation compiler.
+2026.10.05 11:08:12 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java. Using fallback presentation compiler.
+2026.10.05 11:08:13 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java. Using fallback presentation compiler.
+2026.10.05 11:08:14 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java. Using fallback presentation compiler.
+2026.10.05 11:08:14 WARN  no build target for: C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java
+2026.10.05 11:08:14 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java. Using fallback presentation compiler.
+2026.10.05 11:14:57 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java. Using fallback presentation compiler.
+2026.10.05 11:15:07 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java. Using fallback presentation compiler.
+2026.10.05 11:15:18 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java. Using fallback presentation compiler.
+2026.10.05 11:15:18 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java. Using fallback presentation compiler.
+2026.10.05 11:25:56 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java. Using fallback presentation compiler.
+2026.10.05 11:25:56 WARN  no build target for: C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java
+oct 05, 2026 11:25:56 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 254
+2026.10.05 11:25:56 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java. Using fallback presentation compiler.
+oct 05, 2026 11:25:57 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 255
+2026.10.05 11:25:57 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java. Using fallback presentation compiler.
+2026.10.05 11:25:57 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java. Using fallback presentation compiler.
+2026.10.05 11:25:57 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java. Using fallback presentation compiler.
+2026.10.05 11:26:06 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java. Using fallback presentation compiler.
+2026.10.05 11:26:07 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java. Using fallback presentation compiler.
+2026.10.05 11:26:07 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java. Using fallback presentation compiler.
+2026.10.05 11:26:07 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java. Using fallback presentation compiler.
+2026.10.05 11:26:07 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java. Using fallback presentation compiler.
+2026.10.05 11:26:08 INFO  time: code lens generation in 1.01s
+2026.10.05 11:26:07 WARN  no build target for: C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java
+2026.10.05 11:26:08 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java. Using fallback presentation compiler.
+2026.10.05 11:26:08 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java. Using fallback presentation compiler.
+2026.10.05 11:26:09 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java. Using fallback presentation compiler.
+2026.10.05 11:26:09 WARN  no build target for: C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java
+2026.10.05 11:26:09 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java. Using fallback presentation compiler.
+2026.10.05 11:26:09 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java. Using fallback presentation compiler.
+2026.10.05 11:26:10 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java. Using fallback presentation compiler.
+2026.10.05 11:26:10 WARN  no build target for: C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java
+2026.10.05 11:26:10 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java. Using fallback presentation compiler.
+2026.10.05 11:26:13 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java. Using fallback presentation compiler.
+2026.10.05 11:26:13 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java. Using fallback presentation compiler.
+2026.10.05 11:26:13 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java. Using fallback presentation compiler.
+2026.10.05 11:26:14 WARN  no build target for: C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java
+2026.10.05 11:26:14 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java. Using fallback presentation compiler.
+2026.10.05 11:26:14 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java. Using fallback presentation compiler.
+2026.10.05 11:26:15 INFO  time: code lens generation in 2.23s
+2026.10.05 11:26:16 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java. Using fallback presentation compiler.
+2026.10.05 11:26:28 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java. Using fallback presentation compiler.
+2026.10.05 11:26:28 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java. Using fallback presentation compiler.
+2026.10.05 11:26:30 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java. Using fallback presentation compiler.
+2026.10.05 11:27:54 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java. Using fallback presentation compiler.
+2026.10.05 11:36:36 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java. Using fallback presentation compiler.
+oct 05, 2026 11:37:02 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "workspace/didChangeWatchedFiles",
+  "params": {
+    "changes": [
+      {
+        "uri": "file:///c%3A/Users/LENOVO/Downloads/knote/knote/build",
+        "type": 2
+      },
+      {
+        "uri": "file:///c%3A/Users/LENOVO/Downloads/knote/knote/build",
+        "type": 3
+      },
+      {
+        "uri": "file:///c%3A/Users/LENOVO/Downloads/knote/knote/build",
+        "type": 3
+      }
+    ]
+  }
+}
+java.lang.IllegalStateException: An unexpected exception occurred while executing jsonrpc method public abstract java.util.concurrent.CompletableFuture scala.meta.metals.lsp.WorkspaceService.didChangeWatchedFiles(org.eclipse.lsp4j.DidChangeWatchedFilesParams)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:73)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:225)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:192)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:189)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:97)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+Caused by: java.nio.file.AccessDeniedException: C:\Users\LENOVO\Downloads\knote\knote\build
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:231)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:357)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:399)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:2973)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:38)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:18)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$onChange$1(MetalsLspService.scala:945)
+	at scala.collection.immutable.List.map(List.scala:236)
+	at scala.collection.immutable.List.map(List.scala:79)
+	at scala.meta.internal.metals.MetalsLspService.onChange(MetalsLspService.scala:944)
+	at scala.meta.internal.metals.ProjectMetalsLspService.onChange(ProjectMetalsLspService.scala:368)
+	at scala.meta.internal.metals.MetalsLspService.didChangeWatchedFiles(MetalsLspService.scala:930)
+	at scala.meta.internal.metals.WorkspaceLspService.$anonfun$didChangeWatchedFiles$3(WorkspaceLspService.scala:707)
+	at scala.collection.StrictOptimizedIterableOps.map(StrictOptimizedIterableOps.scala:100)
+	at scala.collection.StrictOptimizedIterableOps.map$(StrictOptimizedIterableOps.scala:87)
+	at scala.collection.immutable.HashMap.map(HashMap.scala:39)
+	at scala.meta.internal.metals.WorkspaceLspService.didChangeWatchedFiles(WorkspaceLspService.scala:706)
+	at scala.meta.metals.lsp.DelegatingScalaService.didChangeWatchedFiles(DelegatingScalaService.scala:61)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	... 11 more
+
+2026.10.05 11:40:14 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java. Using fallback presentation compiler.
+2026.10.05 11:40:14 WARN  no build target for: C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java
+2026.10.05 11:40:14 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java. Using fallback presentation compiler.
+oct 05, 2026 11:40:14 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 317
+oct 05, 2026 11:40:14 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 320
+2026.10.05 11:40:14 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java. Using fallback presentation compiler.
+2026.10.05 11:40:14 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java. Using fallback presentation compiler.
+2026.10.05 11:40:15 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java. Using fallback presentation compiler.
+2026.10.05 11:40:15 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java. Using fallback presentation compiler.
+2026.10.05 11:40:16 INFO  time: code lens generation in 1.7s
+2026.10.05 11:50:37 INFO  Shutting down server
+2026.10.05 11:50:37 INFO  Memory monitor stopped
+2026.10.05 11:50:37 INFO  shutting down Metals
+2026.10.05 11:50:37 INFO  Exiting server
+2026.10.05 11:51:22 INFO  Started: Metals version 1.6.9 in folders 'C:\Users\LENOVO\Downloads\knote\knote' for client Visual Studio Code 1.140.0.
+2026.10.05 11:51:22 INFO  Memory monitor started
+2026.10.05 11:51:26 WARN  Using H2 2.5.250 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.10.05 11:55:11 WARN  no build target for: C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java
+2026.10.05 11:55:11 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java. Using fallback presentation compiler.
+2026.10.05 11:55:14 WARN  no build target for: C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java
+2026.10.05 11:55:14 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java. Using fallback presentation compiler.
+oct 05, 2026 11:55:14 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+2026.10.05 11:55:14 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java. Using fallback presentation compiler.
+oct 05, 2026 11:55:15 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5
+2026.10.05 11:55:14 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java. Using fallback presentation compiler.
+2026.10.05 11:55:14 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java. Using fallback presentation compiler.
+2026.10.05 11:55:16 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java. Using fallback presentation compiler.
+oct 05, 2026 11:55:16 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8
+2026.10.05 11:55:16 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java. Using fallback presentation compiler.
+oct 05, 2026 11:55:16 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 12
+2026.10.05 11:55:16 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java. Using fallback presentation compiler.
+2026.10.05 11:55:16 INFO  time: code lens generation in 1.28s
+2026.10.05 11:55:16 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java. Using fallback presentation compiler.
+2026.10.05 11:55:16 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java. Using fallback presentation compiler.
+2026.10.05 11:55:17 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java. Using fallback presentation compiler.
+2026.10.05 11:55:18 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java. Using fallback presentation compiler.
+2026.10.05 11:55:18 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java. Using fallback presentation compiler.
+2026.10.05 11:55:36 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java. Using fallback presentation compiler.
+2026.10.05 11:55:36 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java. Using fallback presentation compiler.
+2026.10.05 11:55:41 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java. Using fallback presentation compiler.
+2026.10.05 11:55:43 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java. Using fallback presentation compiler.
+2026.10.05 11:56:16 INFO  no build target found for C:\Users\LENOVO\Downloads\knote\knote\src\main\java\io\learnk8s\knote\KnoteJavaApplication.java. Using fallback presentation compiler.
