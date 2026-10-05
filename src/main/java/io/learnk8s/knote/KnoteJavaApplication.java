@@ -1,7 +1,8 @@
 package io.learnk8s.knote;
 
-import com.vladsch.flexmark.html.HtmlRenderer;
-import com.vladsch.flexmark.parser.Parser;
+import org.commonmark.node.Node;
+import org.commonmark.parser.Parser;
+import org.commonmark.renderer.html.HtmlRenderer;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -98,7 +99,7 @@ class KNoteController {
 
     private void saveNote(String description, Model model) {
         if (description != null && !description.trim().isEmpty()) {
-            var document = parser.parse(description.trim());
+            Node document = parser.parse(description.trim());
             String html = renderer.render(document);
             notesRepository.save(new Note(null, html));
             //After publish you need to clean up the textarea

@@ -22,8 +22,8 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-freemarker'
     implementation 'org.springframework.boot:spring-boot-starter-webmvc'
     
-    // Markdown Parser (Flexmark)
-    implementation 'com.vladsch.flexmark:flexmark-all:0.64.8'
+    // Markdown Parser (Atlassian CommonMark)
+    implementation 'com.atlassian.commonmark:commonmark:0.12.1'
 
     // MinIO Client
     implementation 'io.minio:minio:8.5.7'
