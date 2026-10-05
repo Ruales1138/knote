@@ -15,13 +15,16 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.web.servlet.view.freemarker.FreeMarkerViewResolver;
-import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;
-import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
-import org.springframework.web.servlet.resource.PathResourceResolver;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.multipart.MultipartFile;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.http.HttpHeaders;
+import org.springframework.http.MediaType;
+import org.springframework.http.ResponseEntity;
+import org.springframework.core.io.ByteArrayResource;
+import org.springframework.core.io.Resource;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 import org.springframework.data.mongodb.repository.MongoRepository;
@@ -35,6 +38,12 @@ import java.io.File;
 import java.util.List;
 import java.util.Collections;
 import java.util.UUID;
+import io.minio.BucketExistsArgs;
+import io.minio.GetObjectArgs;
+import io.minio.MakeBucketArgs;
+import io.minio.MinioClient;
+import io.minio.PutObjectArgs;
+import io.minio.StatObjectArgs;
 
 @SpringBootApplication
 public class KnoteJavaApplication {
@@ -84,6 +93,9 @@ class KNoteController {
     @Autowired
     private KnoteProperties properties;
 
+    @Autowired
+    private MinioClient minioClient;
+
     private final Parser parser = Parser.builder().build();
     private final HtmlRenderer renderer = HtmlRenderer.builder().build();
 
@@ -116,11 +128,6 @@ class KNoteController {
     }
 
     private void uploadImage(MultipartFile file, String description, Model model) throws IOException {
-        File uploadsDir = new File(properties.getUploadDir());
-        if (!uploadsDir.exists() && !uploadsDir.mkdirs()) {
-            throw new IOException("Could not create upload directory: " + uploadsDir);
-        }
-
         String originalFilename = new File(file.getOriginalFilename()).getName();
         String extension = "";
         int extensionIndex = originalFilename.lastIndexOf('.');
@@ -128,9 +135,54 @@ class KNoteController {
             extension = originalFilename.substring(extensionIndex);
         }
         String fileId = UUID.randomUUID() + extension;
-        file.transferTo(new File(uploadsDir, fileId));
+        try {
+            ensureBucket();
+            minioClient.putObject(PutObjectArgs.builder()
+                    .bucket(properties.getBucket())
+                    .object(fileId)
+                    .stream(file.getInputStream(), file.getSize(), -1)
+                    .contentType(file.getContentType() == null
+                            ? MediaType.APPLICATION_OCTET_STREAM_VALUE
+                            : file.getContentType())
+                    .build());
+        } catch (Exception exception) {
+            throw new IOException("Could not upload image to MinIO", exception);
+        }
         model.addAttribute("description", description
                 + " ![](/uploads/" + fileId + ")");
+    }
+
+    @GetMapping("/uploads/{objectName:.+}")
+    public ResponseEntity<Resource> getImage(@PathVariable String objectName) throws IOException {
+        try {
+            var metadata = minioClient.statObject(StatObjectArgs.builder()
+                    .bucket(properties.getBucket())
+                    .object(objectName)
+                    .build());
+            byte[] content;
+            try (var stream = minioClient.getObject(GetObjectArgs.builder()
+                    .bucket(properties.getBucket())
+                    .object(objectName)
+                    .build())) {
+                content = stream.readAllBytes();
+            }
+            return ResponseEntity.ok()
+                    .contentType(MediaType.parseMediaType(metadata.contentType()))
+                    .header(HttpHeaders.CONTENT_LENGTH, String.valueOf(content.length))
+                    .body(new ByteArrayResource(content));
+        } catch (Exception exception) {
+            throw new IOException("Could not read image from MinIO", exception);
+        }
+    }
+
+    private void ensureBucket() throws Exception {
+        if (!minioClient.bucketExists(BucketExistsArgs.builder()
+                .bucket(properties.getBucket())
+                .build())) {
+            minioClient.makeBucket(MakeBucketArgs.builder()
+                    .bucket(properties.getBucket())
+                    .build());
+        }
     }
 
     private void saveNote(String description, Model model) {
@@ -154,27 +206,47 @@ class KNoteController {
 @ConfigurationProperties(prefix = "knote")
 class KnoteProperties {
 
-    @Value("${uploadDir:${java.io.tmpdir}/knote-uploads/}")
-    private String uploadDir;
+    @Value("${MINIO_ENDPOINT:http://localhost:9000}")
+    private String endpoint;
 
-    public String getUploadDir() {
-        return uploadDir;
+    @Value("${MINIO_ACCESS_KEY:minioadmin}")
+    private String accessKey;
+
+    @Value("${MINIO_SECRET_KEY:minioadmin}")
+    private String secretKey;
+
+    @Value("${MINIO_BUCKET:knote}")
+    private String bucket;
+
+    public String getEndpoint() {
+        return endpoint;
+    }
+
+    public String getAccessKey() {
+        return accessKey;
+    }
+
+    public String getSecretKey() {
+        return secretKey;
+    }
+
+    public String getBucket() {
+        return bucket;
     }
 }
 
 @Configuration
 @EnableConfigurationProperties(KnoteProperties.class)
-class KnoteConfig implements WebMvcConfigurer {
+class KnoteConfig {
 
     @Autowired
     private KnoteProperties properties;
 
-    @Override
-    public void addResourceHandlers(ResourceHandlerRegistry registry) {
-        registry.addResourceHandler("/uploads/**")
-                .addResourceLocations("file:" + properties.getUploadDir())
-                .setCachePeriod(3600)
-                .resourceChain(true)
-                .addResolver(new PathResourceResolver());
+    @Bean
+    MinioClient minioClient() {
+        return MinioClient.builder()
+                .endpoint(properties.getEndpoint())
+                .credentials(properties.getAccessKey(), properties.getSecretKey())
+                .build();
     }
 }
